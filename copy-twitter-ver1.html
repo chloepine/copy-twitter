@@ -9,68 +9,82 @@
     }
 
     #underbarmargin{
-    	width: 100%; height : 10px; border: 1px solid gray; float:left;
+    	width: 100%; height : 10px;  float:left;
  
     }
 
-    #float1,#float2,#float3,#float4,#float5,#float6,#float7{ height: 500px;}
+    #float1,#float2,#float3,#float4,#float5,#float6,#float7{ height: 600px;}
 
     #float1{
-    	width: 3%; border: 1px solid gray; float:left;
+    	width: 3%;  float:left; background: #f5f8fa;
     }
+
+      #home {float:left;}
+      #not {float:left;}
+      #messages {float:left;}
+      #search {float:right;}
+      #proset {float:right;}
    
     #float2{
-    	width: 23%; border: 1px solid gray; float:left;
+    	width: 23%;  float:left;
     }
 
-    #float2-1{
-    	width: 100%; border: 1px solid gray; float:left; height: 194px;
-    }
+      #float2-1{
+    	  width: 100%;  float:left; height: 194px; background: #1da1f3; 
+      }
 
-     #float2-2{
-    	width: 100%; border: 1px solid gray; float:left; height: 12px;
-    }
+       #float2-2{
+    	  width: 100%;  float:left; height: 14px; background: #f5f8fa;
+      }
 
-     #float2-3{
-    	width: 100%; border: 1px solid gray; float:left; 
-    }
+       #float2-3{
+    	  width: 100%;  float:left; height: 292px; background: #ffffff; 
+      }
 
 
     #float3{
-    	width: 1%; border: 1px solid gray; float:left;
+    	width: 1%;  float:left; background: #f5f8fa; 
     }
 
     #float4{
-    	width: 45%; border: 1px solid gray; float:left;
+    	width: 45%;  float:left; 
     }
 
-     #float4-1{
-    	width: 100%; border: 1px solid gray; float:left; height: 60px;
-    }
+      #float4-1{
+    	 width: 100%; float:left; height: 60px; background: #e8f5fd;
+     }
+
+     #float4-2{
+    	 width: 100%; float:left; height: 439px; background: #ffffff;
+     }
 
     #float5{
-    	width: 1%; border: 1px solid gray; float:left;
+    	width: 1%;  float:left; background: #f5f8fa;
     }
 
     #float6{
-    	width: 23%; border: 1px solid gray; float:left;
+    	width: 23%; float:left; background: #f5f8fa;
     }
 
-    #float6-1{
-    	width: 100%; border: 1px solid gray; float:left; height: 40px;
-    }
+      #float6-1{
+      	width: 100%; float:left; height: 300px; background: #ffffff;
+      }
 
-     #float6-2{
-    	width: 100%; border: 1px solid gray; float:left; height: 12px;
-    }
+       #float6-2{
+      	width: 100%;  float:left; height: 12px; background: #f5f8fa;
+      }
 
-     #float6-3{
-    	width: 100%; border: 1px solid gray; float:left; height: 86px;
-    }
+       #float6-3{
+      	width: 100%;  float:left; height: 86px; background: #ffffff;
+      }
+
+       #float6-4{
+      	width: 100%; border-top: 1px solid gray; float:left; height: 46px; background: #1da1f3;
+      }
 
 
     #float7{
-    	width: 3%; border: 1px solid gray; float:left;
+    	width: 3%; float:left; background: #f5f8fa;
     }
   	
     </style>
@@ -78,7 +92,16 @@
   </head>
 
   <body>
-    <div id="bar"></div>
+    <div id="bar">
+    	<div id="home">Home</div>
+    	<div id="not">Notifications</div>
+    	<div id="messages">Messages</div>
+    	<div id="bird">bird</div>
+    	<div id="search">s</div>
+    	<div id="proset">p</div>
+    	<div id="newtweet">t</div>
+    </div>
+
     <div id="underbarmargin"></div>
     <div id="float1"></div>
     <div id="float2">
@@ -89,12 +112,15 @@
     <div id="float3"></div>
     <div id="float4">
     	<div id="float4-1"></div>
+    	<div id="float4-2"></div>
     </div>
     <div id="float5"></div>
     <div id="float6">
     	<div id="float6-1"></div>
     	<div id="float6-2"></div>
     	<div id="float6-3"></div>
+    	<div id="float6-4">Advertise with Twitter</div>
+
     </div>
     <div id="float7"></div>
 
